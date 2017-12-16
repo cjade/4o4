@@ -14,7 +14,7 @@
     </head>
     <body>
         <div id="app">
-            <example></example>
+            
         </div>
     </body>
     <script src="{{ mix('js/manifest.js') }}"></script>
