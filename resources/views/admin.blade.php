@@ -17,5 +17,7 @@
             <example></example>
         </div>
     </body>
-    <script src="/js/admin.js"></script>
+    <script src="{{ mix('js/manifest.js') }}"></script>
+    <script src="{{ mix('js/vendor.js') }}"></script>
+    <script src="{{ mix('js/admin.js') }}"></script>
 </html>
