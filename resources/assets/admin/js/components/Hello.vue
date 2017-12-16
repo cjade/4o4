@@ -6,7 +6,11 @@
                     <div class="panel-heading">Example Component</div>
 
                     <div class="panel-body">
-                        admin
+                        <template>
+                            <el-radio v-model="radio" label="1">备选项</el-radio>
+                            <el-radio v-model="radio" label="2">备选项</el-radio>
+                        </template>
+
                     </div>
                 </div>
             </div>
@@ -16,6 +20,11 @@
 
 <script>
     export default {
+        data () {
+            return {
+                radio: '1'
+            };
+        },
         mounted() {
             console.log('Component mounted.')
         }
