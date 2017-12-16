@@ -45168,7 +45168,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_element_ui___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_element_ui__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_element_ui_lib_theme_chalk_index_css__ = __webpack_require__(196);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_element_ui_lib_theme_chalk_index_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_element_ui_lib_theme_chalk_index_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__router_index_js__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__router_js__ = __webpack_require__(200);
 
 /**
  * First we will load all of this project's JavaScript dependencies which
@@ -45196,7 +45196,7 @@ Vue.use(__WEBPACK_IMPORTED_MODULE_1_element_ui___default.a);
 
 var app = new Vue({
   el: '#app',
-  router: __WEBPACK_IMPORTED_MODULE_3__router_index_js__["a" /* default */],
+  router: __WEBPACK_IMPORTED_MODULE_3__router_js__["a" /* default */],
   render: function render(h) {
     return h(__WEBPACK_IMPORTED_MODULE_0__App_vue___default.a);
   }

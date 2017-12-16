@@ -8,7 +8,7 @@ export default new VueRouter({
         {
             name: 'hello',
             path: '/hello',
-            component: resolve => void(require(['../components/Hello.vue'], resolve))
+            component: resolve => void(require(['./components/Hello.vue'], resolve))
         }
     ]
 });
